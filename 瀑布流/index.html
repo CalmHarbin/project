@@ -72,7 +72,7 @@
 			if(isGet===true){//判断开关是否开着
 				isGet=false;//关闭开关
 				//获取数据
-				$.getJSON('http://www.wookmark.com/api/json/popular?callback=?', {page: page}, function(json) {
+				$.getJSON('https://www.wookmark.com/api/json/popular?callback=?', {page: page}, function(json) {
 					//图片创建
 					var imglen=$('img').length;
 					for (var i = 0,len=json.length; i < len; i++) {
